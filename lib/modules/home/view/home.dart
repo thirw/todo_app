@@ -1,10 +1,8 @@
 import 'dart:convert';
 
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:todo_app/data/todo_model.dart';
-import 'package:todo_app/modules/home/widget/todo_item.dart';
 
 class HomeView extends StatefulWidget {
   final String title;
